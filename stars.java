@@ -10,3 +10,4 @@ public class stars {
       System.out.println();
     }
   }
+}

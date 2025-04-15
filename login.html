@@ -1,0 +1,35 @@
+<html>
+<head>
+<script language="javascript">
+function validate()
+{
+var  u=document.f1.u.value;
+var p=document.f1.p.value;
+if((u.equals("MVSREC")&&(p.equals("aiml")))
+{
+window.alert("login successful");
+}
+else
+{
+window.alert("login failed");
+}
+</script>
+</head>
+<body>
+<form name="f1">
+<table border="5" bgcolor="pink" align ="center">
+<tr>
+<td>username</td>
+<td><input type="text" name="u"></td>
+</tr>
+
+<tr><td>password</td><td><input type="password" name="p">
+</td>
+</tr>
+
+<tr> <td><input type="button" value="LOGIN" onclick="validate()"></td>
+<td><input type="reset" value= "RESET"> </td>
+<tr>
+</table>
+</body>
+<html>
